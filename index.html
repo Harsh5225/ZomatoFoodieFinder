@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Delivery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Hero-Section -->
+    <div class="hero">
+      <div class="container">
+        <h1>Discover the best food & drinks</h1>
+        <div class="search-box">
+          <div id="search-block">
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="Search for restaurants, cuisines..."
+              aria-label="Search for restaurants and cuisines"
+            />
+            <button id="clickButton">Go</>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Filter options popup -->
+    <div id="filterPopup" class="hidden">
+      <div class="popup-content">
+        <h3>Choose Filter</h3>
+        <div class="filterOption">
+          <input type="radio" id="sortByRating" name="filterOption" value="rating" />
+          <label for="sortByRating">Sort by Rating</label>
+        </div>
+        <div class="filterOption">
+          <input type="radio" id="sortHighToLow" name="filterOption" value="highLow" />
+          <label for="sortHighToLow">High to Low (Price)</label>
+        </div>
+        <div class="filterOption">
+          <input type="radio" id="costOption" name="filterOption" value="costLowHigh" />
+          <label for="costOption">Cost: Low to High</label>
+        </div>
+        <div class="filterOption">
+          <input type="radio" id="distanceOption" name="filterOption" value="distance" />
+          <label for="distanceOption">Distance</label>
+        </div>
+        <div class="popup-buttons">
+          <button id="applyFilter" class="btn-primary">Apply</button>
+          <button id="closeFilter" class="btn-secondary">Close</button>
+        </div>
+      </div>
+    </div>
+
+  
+
+    <!-- Main-Content -->
+    <div class="main-content">
+      <div class="container">
+        <!-- Filters -->
+        <div class="filters">
+          <div class="cuisine-filters" id="cuisineFilters">
+            <button class="Filter">Filter</button>
+            <button class="Offers">Offers</button>
+            <button class="Rating">Rating 4.5+</button>
+            <button class="Alcohol">Serves Alcohol</button>
+            <button class="Open">Open Now</button>
+          </div>
+        </div>
+
+        <!-- Restaurant Grid -->
+        <div class="restaurant-grid" id="restaurantGrid"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
