@@ -333,14 +333,14 @@ body {
 }
 #clickButton {
   position: absolute;
-  top: 8px;
+  top: 10px;
   right: 8px;
-  background-color: #dc2626; /* Better red shade */
+  background-color: #dc2626; 
   border-radius: 50%;
   border: none;
   color: #ffffff;
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
