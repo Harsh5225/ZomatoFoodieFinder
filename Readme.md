@@ -39,7 +39,8 @@ FoodieFinder/
 4. **Popup Filters:** Open filter popup for advanced sorting.
 
 ## 📸 Screenshots
-> [Page](https://github.com/Harsh5225/ZomatoFoodieFinder/blob/main/ZomatoFoodieFinder.png)
+> ![Home Page](https://raw.githubusercontent.com/Harsh5225/ZomatoFoodieFinder/main/ZomatoFoodieFinder.png)
+
 
 ## 📌 Future Enhancements
 - ✅ Add search functionality.
